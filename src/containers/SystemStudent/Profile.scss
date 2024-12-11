@@ -1,0 +1,41 @@
+.profile {
+    background-color: rgb(227, 227, 227);
+    display: flex;
+    min-height: 100vh;
+    padding: 20px;
+    gap: 20px;
+
+    .image_profile {
+        background-color: white;
+        width: auto;
+        padding: 10px;
+        height: auto;
+        border-radius: 10px;
+
+
+        img {
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .text-left {
+            font-size: 15px;
+            margin-top: 10px;
+            padding: 10px 0 0 10px;
+        }
+    }
+
+    .info_profile {
+        background-color: white;
+        width: 100%;
+        padding: 10px;
+        height: auto;
+        border-radius: 10px;
+
+        .emptySubject {
+            text-align: center;
+            color: rgb(199, 199, 199);
+            font-size: 15px;
+        }
+    }
+}
